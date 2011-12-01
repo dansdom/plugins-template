@@ -20,7 +20,7 @@
 							'easing' : 'easeInOutBack',		// easing effect on the animation
 							'startPosition' : 0			// set the start position of the scroller
 					 };
-
+ 
 		// if settings have been defined then overwrite the default ones
 		// comments:	true value makes the merge recursive. that is - 'deep' copy
 		//				{} creates an empty object so that the second object doesn't overwrite the first object

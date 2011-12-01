@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title></title>
+          <!-- Meta tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />  <!-- w3c recomends this meta tag  -->
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />  <!-- w3c recomends this meta tag  -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="copyright" content="" />
+	<meta name="author" content="" />
+	<meta name="rating" content="general" />
+	<meta name="robots" content="all" />
+        <!-- Stylesheets -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+	    <!-- Javascripts -->
+    <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="js/jquery-ui.js"></script>
+    <script language="javascript" type="text/javascript" src="js/page-scroller1.0.js"></script>
+    <script language="javascript" type="text/javascript">
+    		$(document).ready(function(){
+				$("#wrap").pageScroller({				    
+				});				
+			});
+    </script>
+
+</head>
+
+<body>
+
+      <div id="wrap">
+      
+      	   <div class="box" style="background:#ff6" title="box1"><a id="box1"></a><span>box 1</span></div>
+      	   <div class="box" style="background:#ff8" title="box2"><a id="box2"></a><span>box 2</span></div>
+      	   <div class="box" style="background:#ffa" title="box3"><a id="box3"></a><span>box 3</span></div>
+      	   <div class="box" style="background:#ffc" title="box4"><a id="box4"></a><span>box 4</span></div>
+      	   <div class="box" style="background:#ffe" title="box5"><a id="box5"></a><span>box 5</span></div>
+
+      </div>  <!-- end of wrap div -->
+      
+      <nav class="scrollerNav">
+      	<ul>
+      		<li><a href="#box1">box 1</a></li>
+      		<li><a href="#box2">box 2</a></li>
+      		<li><a href="#box3">box 3</a></li>
+      		<li><a href="#box4">box 4</a></li>
+      		<li><a href="#box5">box 5</a></li>
+      	</ul>
+      </nav>
+      
+</body>
+</html>
